@@ -6,7 +6,8 @@ import { AwesomeComponent } from './components/AwesomeBox';
 function App() {
   return (
     <>
-    <AwesomeComponent></AwesomeComponent>
+    <AwesomeComponent whoAreyou="I'm the first"></AwesomeComponent>
+    <AwesomeComponent whoAreyou="and I'm the second" color="#00FF00" textColor="#000000"></AwesomeComponent>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
