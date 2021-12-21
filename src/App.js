@@ -1,13 +1,14 @@
 import logo from './logo.svg';
 import logo2 from './logo2.svg';
 import './App.css';
+import './components/AwesomeBox.css';
 import { AwesomeComponent } from './components/AwesomeBox';
 
 function App() {
   return (
     <>
-    <AwesomeComponent whoAreyou="I'm the first"></AwesomeComponent>
-    <AwesomeComponent whoAreyou="and I'm the second" color="#00FF00" textColor="#000000"></AwesomeComponent>
+    <AwesomeComponent name="I'm the first"></AwesomeComponent>
+    <AwesomeComponent name="and I'm the second" color="#00FF00" textColor="#000000"></AwesomeComponent>
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />

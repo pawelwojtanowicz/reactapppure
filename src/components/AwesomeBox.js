@@ -1,3 +1,5 @@
+import './AwesomeBox.css';
+
 export function AwesomeComponent(props) {
     return (
         /*<svg width="300" height="300">
@@ -6,7 +8,7 @@ export function AwesomeComponent(props) {
         </svg>*/
         <div className="rect" style={{backgroundColor:props.color}}>
             <div className="rectText" style={{color:props.textColor}}>
-                { props.whoAreyou }
+                { props.name }
             </div>
         </div>
     )
