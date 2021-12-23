@@ -3,15 +3,20 @@ import logo2 from './logo2.svg';
 import './App.css';
 import './components/AwesomeBox.css';
 import { AwesomeComponent } from './components/AwesomeBox';
-
+const numbers = [1, 2, 3, 4, 5];
+//const names=["name1", "name2", "name3", "name4", "name5", "name6"]
+const listItems = numbers.map((number) =>
+  <AwesomeComponent name={number}>{number}</AwesomeComponent>
+);
 
 function App() {
   return (
     <>
    
+    {listItems}
     
     
-    
+
     <AwesomeComponent name="I'm the first"></AwesomeComponent>
     <AwesomeComponent name="and I'm the second" color="#00FF00" textColor="#000000"></AwesomeComponent>
     
