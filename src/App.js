@@ -5,6 +5,7 @@ import './components/AwesomeBox.css';
 import './components/Toggle.css';
 import { AwesomeComponent } from './components/AwesomeBox';
 import { Toggle } from './components/Toggle';
+import { Toggle2 } from './components/Toggle2';
 
 const numbers = ["name1", "name2", "name3", "name4", "anme5", "name6", "name7"];
 
@@ -19,6 +20,8 @@ function App() {
     <>
     
     <Toggle></Toggle>
+
+    <Toggle2></Toggle2>
 
     {listNames}
     
