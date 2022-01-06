@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 export function Toggle2(props) {
         
-    const [showtext, setShowtext] = useState(false);
+    const [showtext, setShowtext] = useState(true);
     
 
     return (

@@ -6,6 +6,10 @@ import './components/Toggle.css';
 import { AwesomeComponent } from './components/AwesomeBox';
 import { Toggle } from './components/Toggle';
 import { Toggle2 } from './components/Toggle2';
+import { Example } from './components/UseStatePractice';
+import { Example2 } from './components/UseStatePractice';
+
+
 
 const numbers = ["name1", "name2", "name3", "name4", "anme5", "name6", "name7"];
 
@@ -15,6 +19,74 @@ const listNames = numbers.map((number) =>
 
 
 
+
+
+
+    const a=1;
+    if (a) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    }
+
+    const b=0;
+    if (b) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    } 
+
+    const c='pawel';
+    if (c) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    }
+
+    const d='';
+    if (d) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    }
+  
+    const e=' ';
+    if (e) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    }
+
+    const f={};
+    if (f) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    }
+
+    const g=[];
+    if (g) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    }
+
+    const h=false;
+    const i=false;
+    if (h&&i) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    }
+
+    const j=false;
+    const k=false;
+    if (j||k) {
+    console.log('prawda')
+    } else {
+    console.log('falsz')
+    }
+
 function App() {
   return (
     <>
@@ -23,6 +95,9 @@ function App() {
 
     <Toggle2></Toggle2>
 
+    <Example></Example>
+    <Example2></Example2>
+   
     {listNames}
     
     
