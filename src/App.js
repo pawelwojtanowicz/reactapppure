@@ -8,7 +8,7 @@ import { Toggle } from './components/Toggle';
 import { Toggle2 } from './components/Toggle2';
 import { Example } from './components/UseStatePractice';
 import { Example2 } from './components/UseStatePractice';
-
+import DataFetching from './components/services/DataFetching'
 
 
 const numbers = ["name1", "name2", "name3", "name4", "anme5", "name6", "name7"];
@@ -91,6 +91,7 @@ function App() {
   return (
     <>
     
+    <DataFetching />
     <Toggle></Toggle>
 
     <Toggle2></Toggle2>
