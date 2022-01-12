@@ -23,7 +23,7 @@ function DataFetching() {
             <ul>
                 {
                     posts.map(post => (
-                    <li key={post.id}>{post.title}{post.thumbnail}</li>
+                    <li key={post.id}><img src={post.thumbnailUrl} />{post.title}</li>
                     ))}
             </ul>
         </div>
